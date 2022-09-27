@@ -11,30 +11,15 @@ namespace Aquarium
         static void Main(string[] args)
         {
 
-            string[0, 0] aquarium = new string[10, 10];
+            //string fish = "<><";
+            //int fischlaenge = fish.Length;
+            //Console.WriteLine(fischlaenge);
 
-            for (int j = 0; j < 10; j++)
-            {
-                for (int i = 0; 1 < 10; i++)
-                {
-                    aquarium[i, j] = "a";
-                }
-            }
-            for (int j = 0; j < 10; j++)
-            {
-                for (int i = 0; 1 < 10; i++)
-                {
-                    Console.Write(aquarium[i, j]);
-                }
-                Console.Write("\n");
-            }
+
+            Aquarium.Behaeltererstellen();
+
 
             Console.ReadLine();
-
-
-
-
-
         }
     }
 }
